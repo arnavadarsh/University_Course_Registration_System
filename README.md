@@ -1,7 +1,7 @@
 # University Course Registration System
 
 ## Overview
-This repository contains the implementation of a **University Course Registration System** using **Object-Oriented Programming (OOP)** principles in **C++**. It is designed to manage student enrollments, schedules, academic records, and other university-related tasks efficiently. The system incorporates advanced programming concepts such as generic programming, exception handling, and inheritance to enhance its functionality and robustness.
+This repository contains the implementation of a **University Course Registration System** using **Object-Oriented Programming (OOP)** principles in **Java**. It is designed to manage student enrollments, schedules, academic records, and other university-related tasks efficiently. The system incorporates advanced programming concepts such as generic programming, exception handling, and inheritance to enhance its functionality and robustness.
 
 ## Repository Name
 `University-Course-Registration-System`
@@ -82,17 +82,17 @@ The UML diagram below illustrates the structure and relationships of the system,
    git clone <repository-url>
    cd University-Course-Registration-System
    ```
-2. Ensure you have a C++ compiler installed (e.g., GCC or Clang).
+2. Ensure you have a Java Development Kit (JDK) installed.
 
 ### Compile the Code:
 Run the following command in the terminal:
 ```bash
-g++ -std=c++17 main.cpp -o university-system
+javac Main.java
 ```
 
 ### Execute the Application:
 ```bash
-./university-system
+java Main
 ```
 
 ### Follow the Menu-Driven Interface:
@@ -108,7 +108,7 @@ project/
 ├── UML/                 # UML diagrams
 ├── tests/               # Test cases and scripts
 ├── README.md            # Documentation
-└── main.cpp             # Entry point of the application
+└── Main.java             # Entry point of the application
 ```
 
 ## Assumptions
